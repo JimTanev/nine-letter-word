@@ -34,7 +34,7 @@ public class NineLetterWordsMain {
             System.out.println("There are no nine letter valid words.");
         }
         List<String> validNineLetterWords = findAllNineLetterValidWords(filteredWords);
-        System.out.println(String.join(", ", validNineLetterWords));
+        System.out.println(validNineLetterWords.size());
     }
 
     private static List<String> filterUnnecessaryWords(List<String> allWords) {
